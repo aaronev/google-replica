@@ -4,11 +4,16 @@
   "description": "It is a replica of google",
   "main": "app.js",
   "scripts": {
-    "test": "npm t"
+    "test": "npm t",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aaronev/google-replica.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
   },
   "author": "Aaron Villanueva",
   "license": "MIT",
