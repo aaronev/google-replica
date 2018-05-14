@@ -5,6 +5,7 @@
 body {
   color: #222222;
   margin:0;
+  text-align: center;
 }
 
 a {
@@ -162,8 +163,70 @@ div.bottom ul.right li a {
   font-size: 14px;
 }
 
+@media(max-width: 750px) {
+
+  .searchBox {
+    width: 75%;
+  }
+
+}
+
+@media(max-width: 595px) {
+
+  .right {
+    display: none;
+  }
+
+  ul.left {
+    width: 60%;
+    margin: 10px auto;
+    float: none;
+  }
+  
+}
+
 @media(max-width: 474px) {
+
+  * {
+    font-size: 12px;
+  }
+
   .profile_img {
     display: none;
   }
+
+  ul.nav {
+    margin-right: 0;
+  }
+
+  ul.nav li {
+    margin-right: 0;
+  }
+
 }
+
+@media(max-width: 400px) {
+
+    ul.left {
+      width: 80%;
+    }
+
+}
+
+@media(max-width: 360px) {
+
+    ul.left {
+      width: 80%;
+    }
+
+}
+
+@media(max-width: 350px) {
+
+    ul.left {
+      width: 90%;
+    }
+
+}
+
+
