@@ -161,3 +161,9 @@ div.bottom ul.right li a {
   letter-spacing: 0.1px;
   font-size: 14px;
 }
+
+@media(max-width: 474px) {
+  .profile_img {
+    display: none;
+  }
+}
